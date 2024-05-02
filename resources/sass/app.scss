@@ -1,0 +1,51 @@
+// // Fonts
+// @import url('https://fonts.bunny.net/css?family=Nunito');
+
+// // Variables
+// @import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+.home-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+}
+
+.home-kiri {
+    align-items: center;
+    padding-left: 6rem;
+    padding-right: 2rem;
+}
+
+.home-kiri p {
+    width: 600px;
+    height: 50px;
+    margin-top: 12px;
+}
+
+.home-kanan {
+    align-items: center;
+    padding-right: 6rem;
+    padding-left: 2rem;
+}
+
+.button-container {
+    margin-top: 15px;
+}
+
+.home-kanan button {
+    padding: 1rem 2rem;
+    border-radius: 8rem;
+    background-color: #000000;
+    margin-left: 26rem;
+}
+
+.home-kanan button a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
